@@ -4,12 +4,8 @@ version = "0.1.0"
 authors = ["Dallen Bishop <ddbjustme2@gmail.com>"]
 
 [dependencies]
-futures = "0.1"
+futures = "0.1.21"
 hyper = "0.11.27"
-tokio-core = "0.1"
-hyper-proxy = "*"
-hyper-tls = "*"
-stopwatch = "0.0.7"
-crossbeam-channel = "0.1.3"
-mime = "*"
-lazy_static = "*"
+hyper-proxy = "0.4.1"
+tokio-core = "0.1.17"
+tokio-io = "0.1.6"
